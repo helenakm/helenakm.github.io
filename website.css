@@ -342,11 +342,36 @@ footer p:nth-child(2){
     font-weight: bold;
     padding: 10px 25px;
     border-radius: 30px;
-    transition: .4s;
+    transition: .4s; 
 }
 
 .project-card a:hover {
     background-color: transparent;
     border: 2px solid rgb(118, 99, 212);
     cursor: pointer;
+}
+
+.why-me {
+    background: #191919;
+    width: 100%;
+    padding: 96px 0px;
+}
+
+.why-me .title h2 {
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
 }
